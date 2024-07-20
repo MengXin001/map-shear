@@ -1,0 +1,27 @@
+{
+  "name": "map-shear",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.2.3",
+    "autoprefixer": "^10.4.19",
+    "html2canvas": "^1.4.1",
+    "mapbox-gl": "^3.5.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "postcss": "^8.4.38",
+    "prettier": "^2.8.8",
+    "sass": "^1.77.8",
+    "tailwindcss": "^3.3.2",
+    "vite": "^5.2.0"
+  }
+}

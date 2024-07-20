@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.map-panel {
+    width: 20%;
+    min-width: 300px;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    background-color: #fff;
+}
+
+.map-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative
+}
+
+#scale-control {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+
+#navigation-control {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 29px;
+}
